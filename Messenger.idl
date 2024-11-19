@@ -1,0 +1,9 @@
+module Messenger {
+
+  @topic
+  struct Message {
+    long subject;
+    @key long subject_id;
+    long count;
+  };
+};
